@@ -1,0 +1,24 @@
+import java. util.Scanner;
+ 
+class Loki {
+    public static void main (String [] args){
+    Scanner scan=new Scanner(System.in);
+     String loki=scan.next();
+
+   
+   if(loki.equals("dead"))
+    {
+        System.out.println("sisters are orphan");
+    }
+    else if (loki.equals("alive"))
+    
+    
+    {
+        System.out.println("they become happy");
+    }
+    else
+    {
+        System.out.println("invalid detail");
+    }
+    } 
+}
